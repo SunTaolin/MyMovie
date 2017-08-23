@@ -1,0 +1,8 @@
+<!--小程序骨架  -->
+<view class="container">
+    <image class="user-avatar" src="/images/userimg.jpg"></image>
+    <text class="user-name">hello,Tao木木</text>
+    <view class="moto-container">
+        <text class="moto">开启小程序之旅</text>
+    </view>
+</view>

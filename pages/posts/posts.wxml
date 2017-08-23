@@ -1,0 +1,16 @@
+<view class="">
+   <swiper indicator-dots="true" autoplay="true" interval="2500" circular="true">
+      <swiper-item>
+          <image src="/images/wx.png"></image>
+      </swiper-item>
+      <swiper-item>
+          <image src="/images/vr.png"></image>
+      </swiper-item>
+      <swiper-item>
+          <image src="/images/iqiyi.png"></image>
+      </swiper-item>
+   </swiper>
+   <view class="">
+        
+   </view>
+</view>
