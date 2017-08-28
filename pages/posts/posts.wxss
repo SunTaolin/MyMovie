@@ -1,4 +1,17 @@
+/*导入模板样式  */
+@import "post-item/post-item-template.wxss";
+.container{
+  background: #ececec;
+}
+
 swiper{
     height:500rpx;
-
+    width: 100%;
 }
+
+swiper image{
+    height:500rpx;
+    width: 100%;
+}
+
+

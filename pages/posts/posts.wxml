@@ -1,4 +1,7 @@
-<view class="">
+<!--导入模板  -->
+<import src="post-item/post-item-template.wxml" />
+<view class="container">
+   <!--swiper 轮播图  -->
    <swiper indicator-dots="true" autoplay="true" interval="2500" circular="true">
       <swiper-item>
           <image src="/images/wx.png"></image>
@@ -10,7 +13,13 @@
           <image src="/images/iqiyi.png"></image>
       </swiper-item>
    </swiper>
-   <view class="">
-        
-   </view>
+
+   <block wx:for="{{post_key}}" >
+    <view catchtap="onPostTap" data-postid="{{item.postid}}">
+        <template is="postItem" data="{{... item}}" />
+    </view>
+   </block>
+
 </view>
+
+   
